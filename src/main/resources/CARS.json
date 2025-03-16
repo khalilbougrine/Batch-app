@@ -1,0 +1,24 @@
+[
+    {
+        "matricule": "ABC123",
+        "marque": "Toyota",
+        "modele": "Corolla",
+        "annee": 2020,
+        "kilometrage": 15000
+    },
+    {
+        "matricule": "XYZ456",
+        "marque": "Honda",
+        "modele": "Civic",
+        "annee": 2018,
+        "kilometrage": 30000
+    },
+    {
+        "matricule": "LMN789",
+        "marque": "Ford",
+        "modele": "Focus",
+        "annee": 2019,
+        "kilometrage": 25000
+    }
+
+]
