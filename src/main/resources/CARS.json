@@ -19,6 +19,26 @@
         "modele": "Focus",
         "annee": 2019,
         "kilometrage": 25000
+    },
+    {
+        "matricule": "DEF321",
+        "marque": "Volkswagen",
+        "modele": "Golf",
+        "annee": 2021,
+        "kilometrage": 12000
+    },
+    {
+        "matricule": "GHI654",
+        "marque": "Nissan",
+        "modele": "Altima",
+        "annee": 2022,
+        "kilometrage": 8000
+    },
+    {
+        "matricule": "JKL987",
+        "marque": "Chevrolet",
+        "modele": "Malibu",
+        "annee": 2017,
+        "kilometrage": 40000
     }
-
 ]
