@@ -8,5 +8,5 @@ import spring_batch_json.example.batch_app.model.Voiture;
 
 @Repository
 public interface VoitureRepository extends JpaRepository<Voiture, Long> {
-    Page<Voiture> findAll(Pageable pageable); // ✅ Utiliser org.springframework.data.domain.Pageable
+    Page<Voiture> findAll(Pageable pageable);
 }

@@ -40,5 +40,75 @@
         "modele": "Malibu",
         "annee": 2017,
         "kilometrage": 40000
+    },
+    {
+        "matricule": "MNO234",
+        "marque": "Hyundai",
+        "modele": "Elantra",
+        "annee": 2023,
+        "kilometrage": 5000
+    },
+    {
+        "matricule": "PQR567",
+        "marque": "Kia",
+        "modele": "Forte",
+        "annee": 2021,
+        "kilometrage": 18000
+    },
+    {
+        "matricule": "STU890",
+        "marque": "Subaru",
+        "modele": "Impreza",
+        "annee": 2020,
+        "kilometrage": 22000
+    },
+    {
+        "matricule": "VWX123",
+        "marque": "Mazda",
+        "modele": "3",
+        "annee": 2022,
+        "kilometrage": 7000
+    },
+    {
+        "matricule": "YZA456",
+        "marque": "BMW",
+        "modele": "3 Series",
+        "annee": 2021,
+        "kilometrage": 15000
+    },
+    {
+        "matricule": "BCD789",
+        "marque": "Mercedes",
+        "modele": "C-Class",
+        "annee": 2019,
+        "kilometrage": 30000
+    },
+    {
+        "matricule": "EFG012",
+        "marque": "Audi",
+        "modele": "A4",
+        "annee": 2020,
+        "kilometrage": 10000
+    },
+    {
+        "matricule": "HIJ345",
+        "marque": "Tesla",
+        "modele": "Model 3",
+        "annee": 2023,
+        "kilometrage": 2000
+    },
+    {
+        "matricule": "KLM678",
+        "marque": "Volvo",
+        "modele": "S60",
+        "annee": 2021,
+        "kilometrage": 12000
+    },
+    {
+        "matricule": "NOP901",
+        "marque": "Porsche",
+        "modele": "Macan",
+        "annee": 2022,
+        "kilometrage": 3000
     }
 ]

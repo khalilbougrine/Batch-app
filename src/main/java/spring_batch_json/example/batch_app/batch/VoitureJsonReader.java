@@ -23,13 +23,14 @@ public class VoitureJsonReader implements ItemReader<Voiture> {
         this.voitures = loadVoitures();
     }
 
+    //charger fichier json et convertir en objet java
     private List<Voiture> loadVoitures() {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             List<Voiture> voitures = objectMapper.readValue(new File(filePath),
                     objectMapper.getTypeFactory().constructCollectionType(List.class, Voiture.class));
 
-            // ✅ Une fois chargé, on transfère le fichier JSON vers MinIO
+            // Transfert fichier json vers minio
             minIOService.uploadFileToMinIO(filePath, "success/" + new File(filePath).getName());
             return voitures;
         } catch (IOException e) {

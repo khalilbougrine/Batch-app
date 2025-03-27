@@ -30,6 +30,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
+                //Configuartion principal
                 .cors(cors -> cors.configurationSource(corsConfigurationSource())) // Activation de CORS
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
@@ -44,6 +45,7 @@ public class SecurityConfig {
         return http.build();
     }
 
+    //Configuration CORS
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
@@ -64,6 +66,7 @@ public class SecurityConfig {
         return converter;
     }
 
+    //Extraction des roles
     private Collection<GrantedAuthority> extractAuthorities(Jwt jwt) {
         Collection<GrantedAuthority> authorities = new JwtGrantedAuthoritiesConverter().convert(jwt);
 
@@ -89,6 +92,7 @@ public class SecurityConfig {
         return authorities;
     }
 
+    //Validation des tokens
     @Bean
     public JwtDecoder jwtDecoder() {
         String jwkSetUri = "http://localhost:8080/realms/myapp-realm/protocol/openid-connect/certs";
